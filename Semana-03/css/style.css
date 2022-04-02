@@ -1,7 +1,65 @@
 
-.h1{
+.title{
+    color: #373867;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+
+    margin-left: 291px;
+}
+
+.sub-title{
+    color: #373867;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.sub-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
     color: #373867;
 }
-#main-header{
+
+.section{
     color: #373867;
+}
+
+.header{
+    color: #373867;
+}
+
+.footer{
+    color: #373867;
+}
+
+.footer-title{
+    color: #373867;
+    font-size: large;
+}
+
+/* Images */
+
+.header-image{
+    position: absolute;
+    width: 487px;
+    height: 644px;
+    left: 922px;
+    top: 158px;
+}
+
+.menu{
+    position: absolute;
+    width: 268px;
+    height: 900px;
+    left: 0px;
+    top: -3px;
+    color: #373867;
+
+background: #AFAFC2;
 }
