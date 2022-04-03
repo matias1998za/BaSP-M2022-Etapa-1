@@ -1,4 +1,32 @@
-
+.menu-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 29.23px;
+    padding-top: 42px;
+    padding-bottom: 17.5px;
+    color: #373867;
+}
+.menu-text{
+    margin-left: 47.49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 13px;
+}
+.trackgenix{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 29.23px;
+    color: #373867;
+}
 .title{
     color: #373867;
     font-family: 'Roboto';
@@ -7,14 +35,37 @@
     font-size: 54px;
     line-height: 63px;
 
-    margin-left: 291px;
 }
 
 .sub-title{
     color: #373867;
     font-weight: bold;
     font-size: large;
+    margin-left: 291px;
 
+}
+
+.intro-text{
+    position: absolute;
+    width: 517px;
+    height: 386px;
+    left: 291px;
+    top: 316px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #373867;
+
+}
+.learn-more{
+    position: absolute;
+    width: 270px;
+    height: 58px;
+    left: 292px;
+    top: 744px;
+    border: #373867;
 }
 
 .sub-header{
@@ -28,19 +79,27 @@
 
 .section{
     color: #373867;
+    margin-left: 291px;
 }
 
 .header{
     color: #373867;
+    margin-left: 291px;
+}
+
+.form{
+    margin-left: 440px;
 }
 
 .footer{
     color: #373867;
+    margin-left: 291px;
 }
 
 .footer-title{
     color: #373867;
     font-size: large;
+    margin-left: 291px;
 }
 
 /* Images */
@@ -53,7 +112,7 @@
     top: 158px;
 }
 
-.menu{
+.aside{
     position: absolute;
     width: 268px;
     height: 900px;
@@ -62,4 +121,13 @@
     color: #373867;
 
 background: #AFAFC2;
+}
+.line-menu{
+    position: absolute;
+    width: 178px;
+    height: 0px;
+    left: 29px;
+    top: 217px;
+
+    border: 1px solid #000000;
 }
