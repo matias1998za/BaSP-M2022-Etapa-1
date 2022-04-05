@@ -85,7 +85,7 @@
     color: #373867;
     width: 517px;
     height: 386px;
-    margin: 20px;
+    margin: 23px;
 
 }
 .learn-more{
@@ -97,6 +97,7 @@
     width: 270px;
     height: 58px;
     margin-bottom: 120px;
+    border-radius: 8px;
 }
 
 .sub-header{
@@ -115,6 +116,7 @@
 }
 .history-text{
     position: relative;
+    text-align: right;
 }
 
 .header{
@@ -131,11 +133,6 @@
     margin-left: 291px;
 }
 
-.footer-title{
-    color: #373867;
-    font-size: large;
-    margin-left: 291px;
-}
 
 /* Images */
 
@@ -186,11 +183,27 @@ background: #AFAFC2;
     
     border: 1px solid #000000;
 }
-.history-image1{
-    position: absolute;
+.history-image{
+    position: relative;
+    width: 404px;
+    height: 261px;
 }
 .image-right{
     float: right;
     margin-right: 10px;
     margin-top: 59px;
+}
+.image-middle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 97px;
+    margin-bottom: 27px;
+}
+.image-space{
+    margin-right: 10px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 19;
 }
