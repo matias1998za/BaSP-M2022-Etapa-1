@@ -160,58 +160,80 @@
     display: inline-block;
     width: 1174px;
     height: 753px;
-    left: 266px;
-    top: 147px;
     background-color: transparent;
     margin-left: 285px;
 }
-.functionalities-text-left{
+.functionalities-text{
+    width: 347px;
+
     display: inline-block;
-    width: 350px;
-    height: 125px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #373867;
-    margin: 10px;
+    margin: 50px;
 }
 .functionalities-text-right{
+    position: relative;
     display: inline-block;
-    width: 350px;
-    height: 125px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #373867;
-    margin-left: 593px;
 }
-.functionalities-left{
+.functionalities-title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #373867;
-    margin-left: 122px;
+    margin-left: 110px;
 }
 .functionalities-right{
+    display: inline-block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #373867;
-    margin-left: 600px;
+    margin-left: 585px;
 }
-.section1{
-    float: right;
-    display: inline;
+/* Reasons why you need us */
+.reasons{
+    display: inline-block;
+    width: 1174px;
+    height: 753px;
+    background-color: transparent;
+    margin-left: 285px;
+    margin-top: 20px;
 }
+.reasons-text{
+    width: 347px;
 
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #373867;
+    margin: 50px;
+}
+.reasons-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #373867;
+    margin-left: 110px;
+}
 /* Form */
 .form{
     margin-left: 440px;
@@ -225,7 +247,7 @@
     font-size: 60px;
     line-height: 70px;
     padding: 10px;
-
+    margin-top: 50px;
     color: #231F20;
 
 }
@@ -439,9 +461,6 @@ background: #AFAFC2;
 }
 
 .img1{
-    float: left;
-}
-.img2{
-    margin-left: 593px;
-    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
 }
