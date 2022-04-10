@@ -1,11 +1,13 @@
 nav{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     width: 100%;
+    height: fit-content;
     background-color: #EDEDED;
     color: #373867;
     position: fixed;
     z-index: 0px;
+
 }
 nav,h2{
     font-family: 'Roboto';
@@ -34,4 +36,6 @@ nav,p{
     height: 37px;
     width: 33.69361877441406px;
     align-self: flex-start;
+    margin-top: 12px;
+    margin-left: 6px;
 }
