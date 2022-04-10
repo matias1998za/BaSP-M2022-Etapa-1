@@ -1,0 +1,37 @@
+nav{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #EDEDED;
+    color: #373867;
+    position: fixed;
+    z-index: 0px;
+}
+nav,h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.line-img {
+
+    height: 10px;
+    width: 267.83648681640625px;
+    align-self: center;
+
+}
+nav,p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.nav-menu{
+    height: 37px;
+    width: 33.69361877441406px;
+    align-self: flex-start;
+}

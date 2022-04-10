@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    flex-direction: column;
+
+}
+footer,h3{
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #373867;
+}
+footer,li{
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #496EF1;
+}
+
+footer,img{
+    width: 22px;
+    height: 22px;
+}
