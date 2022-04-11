@@ -3,6 +3,7 @@
     flex-direction: column;
     color: #696969;
     align-items: center;
+    justify-content: center;
 }
 .history-h2{
     display: flex;
@@ -13,6 +14,7 @@
     font-size: 14px;
     line-height: 22px;
     color: #000000;
+    justify-content: center;
 }
 .history-p{
     display: flex;
@@ -22,7 +24,9 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
-    margin: 10px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .history-img{
     display: flex;
@@ -30,6 +34,7 @@
     height: 178px;
     width: 262px;
     border-radius: 6px;
+    justify-content: center;
     align-self: center;
 }
 .history-button{
