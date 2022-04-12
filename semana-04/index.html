@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/history.css">
         <link rel="stylesheet" href="css/section.css">
+        <link rel="stylesheet" href="css/form.css">
         <link rel="stylesheet" href="css/main-content.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/whole-content.css">
@@ -183,31 +184,27 @@
             </section>
         </section>
 
-        <form class="form" action="Request information">
-            <p>Request information:</p>
-            <img src="images/form-line.jpeg" alt="line menu">
-            <section>
-                <label for="name"></label>
-                    <input type="text" placeholder="Name">
-                <label for="Email"></label>
-                    <input type="email" placeholder="Email">
-            <div>
-                <input type="checkbox" id="Send" name="Send me a copy">
-                    <label for="Send">Send me a copy</label>
-            </div>
+        <form>
+            <img class="form-title-image" src="images/form-title.png" alt="form title">
+            <label for="name"></label>
+                <input class="input" type="text" placeholder="Name">
+            <label for="Email"></label>
+                <input class="input" type="email" placeholder="Email">
             </section>
-            <select name="Category">
+            <select class="input" name="Contact area">
                 <option value="human resources">Human Resources</option>
                 <option value="systems">Systems</option>
                 <option value="comercialization">Comercialization</option>
             ></select>
-            <input type="text" placeholder="Enter your message">
-            <section>
-                <p>Message sent! Check your inbox for more details.</p>
-                <input type="checkbox" id="human" name="I am a human">
-                <label for="human">I am a human</label>
-            </section>
-            <section><button type="button" >Send Message!</button></section>
+            <input class="input-message" type="text" placeholder="Enter your message">
+            <div class="checkbox-center">
+                <input class="checkbox" type="checkbox" id="robot" name="I am not a robot">
+                <label class="checkbox" for="human">I am not a robot</label>
+            </div>
+            <div class="button">
+                <button class="form-button1">Send Message</button>
+                <button class="form-button2">Cancel</button>
+            </div>
         </form>
 
         <footer class="footer">

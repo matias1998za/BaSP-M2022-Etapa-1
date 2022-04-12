@@ -1,0 +1,95 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 39px;
+    margin-right: 50px;
+}
+.form-title-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 289px;
+    height: 53px;
+}
+input{
+    border: none;
+}
+input::placeholder{
+    color: black;
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+select{
+    color: black;
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+.input{
+    display: flex;
+    width: 339px;
+    height: 37px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F6F3F3;
+}
+.input-message{
+    display: flex;
+    width: 339px;
+    height: 375px;
+    background-color: #F6F3F3;
+}
+.checkbox{
+    border-color: #F11A41;
+    color: #F11A41;
+}
+.checkbox-center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+}
+.form-button1{
+    display: flex;
+    width: 134px;
+    height: 37px;
+    border-radius: 4px;
+    background: #F11A41;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    margin: 20px;
+}
+.form-button2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 37px;
+    border-radius: 4px;
+    border-color: #F11A41;
+    color: #F11A41;
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    margin: 20px;
+}
+.button{
+    display: flex;
+}
