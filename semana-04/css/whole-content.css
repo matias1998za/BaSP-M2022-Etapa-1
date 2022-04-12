@@ -17,4 +17,60 @@
     .nav-menu{
         display: none;
     }
+    .header-p, .history-p, .section-p{
+        font-size: 20px;
+    }
+    .header-h1, .section-h2{
+        font-size: 28px;
+    }
+    .section-h3{
+        font-size: 23px;
+    }
+    .history-h2{
+        font-size: 20px;
+    }
+    .form-title-image{
+        width: 440px;
+        height: 85px;
+    }
+    .input{
+        width: 510px;
+        height: 56px;
+    }
+    .input-message{
+        width: 510px;
+        height: 563px;
+    }
+    .input::-webkit-input-placeholder{
+        font-size: 20px;
+    }
+    .input-message::-webkit-input-placeholder{
+        font-size: 20px
+    }
+    select.input {
+        font-size: 20px;
+    }
+    select::-webkit-input-placeholder{
+        font-size: 20px;
+    }
+    .checkbox{
+        font-size: 20px;
+    }
+    .form-button1,.form-button2{
+        width: 201px;
+        height: 56px;
+    }
+    .footer-h3{
+        font-size: 26px;
+    }
+    .footer-li{
+        font-size: 20px;
+    }
+    .social-networks{
+        width: 33px;
+        height: 33px;
+    }
+}
+@media screen and (min-width: 1024px){
+    
 }
