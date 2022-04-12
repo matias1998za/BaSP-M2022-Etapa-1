@@ -1,26 +1,54 @@
-footer{
+.footer{
     display: flex;
     flex-direction: column;
-
 }
-footer,h3{
+.footer-h3{
+    display: flex;
     font-family: 'BioRhyme';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 37px;
     color: #373867;
+    margin-left: 110px;
 }
-footer,li{
+.footer-li{
     font-family: 'BioRhyme';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 19px;
     color: #496EF1;
+    margin-left: 112px;
+    margin-top: 27px;
+    margin-bottom: 18px;
 }
-
-footer,img{
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    width: 266px;
+    height: 0.5px;
+    margin-left: 80px;
+}
+.social-networks{
+    display: flex;
     width: 22px;
     height: 22px;
+    margin: 10px;
+}
+.footer-end{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #EDEDED;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #EDEDED;
+    text-align: center;
 }

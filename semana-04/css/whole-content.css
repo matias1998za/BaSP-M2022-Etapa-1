@@ -8,7 +8,7 @@
         height: 100%;
         position: fixed;
     }
-    nav, .history, .header, section, form, footer{
+    nav, .history, .header, .section, form, .footer{
         display: flex;
         flex-direction: column;
         width: 75%;
