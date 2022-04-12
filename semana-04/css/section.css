@@ -1,5 +1,6 @@
 .section{
     display: flex;
+    flex-direction: row;
 }
 .section-h2{
     font-family: 'Roboto';
@@ -30,7 +31,6 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
-    flex-wrap: wrap;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -44,9 +44,12 @@
 .section-img{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: left;
     width: 102.03px;
     height: 102.03px;
     padding-left: 21px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
 }
