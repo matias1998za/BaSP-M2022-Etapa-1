@@ -1,10 +1,16 @@
-#BaSP-2022
-Week 2 HTML
-```
+# BaSP-2022
+
+__Week 02 HTML__
 Creation of the landing page web in HTML
 
-Week 3 CSS
+__Week 03 CSS__
 
 With CCS customize the style of the HTML created in the week 2 to make that look like the design in figma
 
-Matias Espinosa
+__Week 04 Flexbox__
+
+Create the landing web of figma with responsibe design for all devices
+
+__Page link:__ https://matias1998za.github.io/BaSP-M2022-Etapa-1/semana-04/index.html
+
+__Name:__ Matias Espinosa
