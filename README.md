@@ -14,4 +14,8 @@ Create the landing web of figma with responsibe design for all devices
 
 __Page link:__ https://matias1998za.github.io/BaSP-M2022-Etapa-1/semana-04/index.html
 
+__Week 05 JavaScript__
+
+Resolution of javaScript exercises
+
 __Name:__ Matias Espinosa
