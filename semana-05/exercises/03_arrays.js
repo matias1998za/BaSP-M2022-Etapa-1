@@ -1,4 +1,4 @@
-console.log("Arrays");
+console.log("03 Arrays");
 console.log("Exercise A");
 /*a. Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
 "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los
