@@ -49,7 +49,7 @@ var f = "javascript development"
 
 var f_1 = f.substring(0,1).toUpperCase(0) +
           f.substring(1,10).toLowerCase(0)+
-          f.indexOf(" ", 0)+
+          f.indexOf(" ", +1)+
           f.substring(11,12).toUpperCase(0)+
           f.substring(12,23).toLowerCase(0);
 
