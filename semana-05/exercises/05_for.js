@@ -33,7 +33,7 @@ for(index = 0;index <=b.length-1; index++){
     sentence +=b[index]
 }
 alert(sentence)
-*/
+
 console.log("Exercise D");
 /*d. Crear una array vacío y con un bucle for de 10 repeticiones. Llenar el array con el número
 de la repetición, es decir que al final de la ejecución del bucle for debería haber 10

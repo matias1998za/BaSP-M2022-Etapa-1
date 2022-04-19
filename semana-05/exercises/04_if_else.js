@@ -9,7 +9,7 @@ if (a >= 0.5) {
 }else {
     alert(a + "Lower than 0,5");
 }
-*/
+
 console.log("Exercise B");
 /*b. Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los
 siguientes mensajes de alerta:
@@ -37,4 +37,3 @@ if (Age <= 2){
 } else if (Age > 75){
     alert("Anciano");
 }
-*/
