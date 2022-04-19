@@ -1,7 +1,7 @@
 console.log("05 for");
 console.log("Exercise A");
 /*a. Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de
-JavaScript para mostrar una alerta utilizando cada una de las palabras.
+JavaScript para mostrar una alerta utilizando cada una de las palabras.*/
 
 var a = ["manzana", "naranja", "kiwi", "sandia", "lima"];
 for (var index = 0; index < a.length; index++) {
@@ -10,7 +10,7 @@ for (var index = 0; index < a.length; index++) {
 
 console.log("Exercise B");
 /*b. Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una
-alerta por cada palabra modificada.
+alerta por cada palabra modificada.*/
 
 var toUpperCase = [];
 var toLowerCase = [];
@@ -25,7 +25,7 @@ console.log(toUpperCase);
 console.log("Exercise C");
 /*c. Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto
 a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable
-sentence. Al final mostrar una única alerta con la cadena completa.
+sentence. Al final mostrar una única alerta con la cadena completa.*/
 
 var sentence= "";
 var b = ["manzana", "naranja", "kiwi", "sandia", "lima"]

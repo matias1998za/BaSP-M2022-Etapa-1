@@ -2,7 +2,7 @@ console.log("Functions");
 console.log("Exercise A");
 /*a. Crear una función suma que reciba dos valores numéricos y retorne el resultado. Ejecutar
 la función y guardar el resultado en una variable, mostrando el valor de dicha variable en
-la consola del navegador.
+la consola del navegador.*/
 
 function suma(p1,p2){
     var total = p1+p2
@@ -10,7 +10,7 @@ function suma(p1,p2){
 }
 
 suma("hola",9)
-*/
+
 console.log("Exercise B");
 /*b. A la función suma anterior, agregarle una validación para controlar si alguno de los
 parámetros no es un número, mostrar una alerta aclarando que uno de los parámetros

@@ -2,7 +2,7 @@ console.log("04 If and Else");
 console.log("Exercise A");
 /*a. Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es
 mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater than 0,5” y sino un
-alerta con el mensaje “Lower than 0,5”.
+alerta con el mensaje “Lower than 0,5”.*/
 var a = Math.random();
 if (a >= 0.5) {
     alert(a + "Greater than 0,5");
@@ -19,7 +19,7 @@ iii. “Adolescente” entre 13 y 19 años;
 iv. “Joven” entre 20 y 30 años;
 v. “Adulto” entre 31 y 60 años;
 vi. “Adulto mayor” entre 61 y 75 años;
-vii. “Anciano” si es mayor a 75 años.
+vii. “Anciano” si es mayor a 75 años.*/
 
 var Age = Math.floor(Math.random()*101)
 if (Age <= 2){
