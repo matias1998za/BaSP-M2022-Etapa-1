@@ -112,10 +112,15 @@
         justify-content: center;
         align-self: center;
     }
-
-    
 }
 @media screen and (min-width: 1024px){
+    .history{
+        display: flex;
+        flex-direction: column;
+        color: #696969;
+        align-items: left;
+        justify-content: left;
+    }
     .history-h2-v2{
         display: flex;
         flex-direction: column;
@@ -127,6 +132,20 @@
         align-self: flex-start;
         margin-left: 23px;
         color: #373867;
-        text-shadow: 0px 4px 4px
+        text-shadow: 0px 4px 4px;
+        justify-items: left;
+    }
+    .history-h2{
+        display: none;
+    }
+    .history-img{
+        display: flex;
+        flex-direction: row;
+        height: 210px;
+        width: 750px;
+        border-radius: 6px;
+        padding: 20px;
+        justify-content: left;
+        align-self: left;
     }
 }

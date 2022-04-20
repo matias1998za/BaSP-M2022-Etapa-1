@@ -95,6 +95,7 @@
     nav{
         display: none;
     }
+    
     .aside-ul {
         display: flex;
         flex-direction: column;
