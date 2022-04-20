@@ -196,6 +196,7 @@
         margin-bottom: 20px;
         margin-left: 20px;
         align-self: flex-start;
+        width: 100%;
     }
     .header-p{
         display: flex;
@@ -212,6 +213,7 @@
         width: 300px;
         height: 386px;
         flex-wrap: wrap;
+        justify-items: left;
     }
     .header-bottom{
         display: none;
@@ -225,6 +227,5 @@
         flex-direction: column;
         width: 300px;
         height: 400px;
-        justify-content: flex-end;
     }
 }
