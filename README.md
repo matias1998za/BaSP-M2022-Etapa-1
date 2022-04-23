@@ -19,4 +19,9 @@ __Week 05 JavaScript__
 Resolution of javaScript exercises
 
 __Page link:__ https://matias1998za.github.io/BaSP-M2022-Etapa-1/semana-05/index.html
+
+__Week 06 JavaScript DOM__
+
+Give logic to the landing previously created with JavaScript to make it functional
+
 __Name:__ Matias Espinosa

@@ -1,0 +1,180 @@
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.section-h2{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    align-self: center;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 4px;
+    color: #373867;
+}
+.section-h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #373867;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #373867;
+    padding-bottom: 55px;
+    margin: 20px;
+}
+.section-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 102.03px;
+    height: 102.03px;
+    padding-left: 21px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (min-width: 768px){
+    .section{
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        margin-left: 25%;
+    }
+    .section-h2{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 28px;
+        align-self: center;
+        margin-left: 25%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-shadow: 0px 4px 4px;
+        color: #373867;
+        align-self: center;
+        text-align: center;
+    }
+    .section-h3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .section-p{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #373867;
+        padding-bottom: 55px;
+        margin: 20px;
+    }
+    .section-img{
+        display: flex;
+        flex-direction: row;
+        width: 153px;
+        height: 153px;
+        justify-content: left;
+    }
+    .div{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1024px){
+    .section-all{
+        display: flex;
+        flex-direction: column; 
+    }
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 25%;
+    }
+    .section-h2{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 28px;
+        align-self: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        text-shadow: 0px 4px 4px;
+        color: #373867;
+        margin-left: 25%;
+    }
+    .section-h3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        justify-content: left;
+        justify-items: left;
+    }
+    .section-p{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 18px;
+        color: #373867;
+        padding-bottom: 55px;
+        margin: 40px;
+        margin-left: 30%;
+    }
+    .section-img{
+        display: flex;
+        flex-direction: column;
+        width: 153px;
+        height: 153px;
+    }
+    .div{
+        display: flex;
+        flex-direction: row;
+        width: 174px;
+        height: 153px;
+    }
+}
