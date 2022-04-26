@@ -93,3 +93,11 @@
     justify-items: right;
     margin-right: 51px;
 }
+.success{
+    border: 2px solid green;
+    border-radius: 2px;
+}
+.error{
+    border: 2px solid red;
+    border-radius: 2px;
+}
