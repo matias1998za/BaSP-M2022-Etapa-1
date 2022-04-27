@@ -2,17 +2,32 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
     background-color: #EBEBF0;
     justify-content: center;
     align-content: center;
+    height: 580px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    background-color: #EBEBF0;
 }
 .form{
     display: flex;
     flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .h1{
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -58,6 +73,7 @@
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px);
     border: 1px solid #373867;
+    background-color: #EBEBF0;
 }
 .label-password{
     display: flex;
@@ -71,6 +87,7 @@
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px);
     border: 1px solid #373867;
+    background-color: #EBEBF0;
 }
 .checkbox{
     display: flex;
@@ -91,7 +108,7 @@
     margin-top: 38px;
     justify-content: right;
     justify-items: right;
-    margin-right: 51px;
+    margin-right: 25%;
 }
 .success{
     border: 2px solid green;
@@ -100,4 +117,16 @@
 .error{
     border: 2px solid red;
     border-radius: 2px;
+}
+.emailMessage, .passMessage{
+    font-family: Roboto;
+    display: flex;
+    visibility: hidden;
+    color: red;
+    height: 16px;
+    align-content: center;
+    justify-content: center;
+}
+.emailMessage{
+    margin-top: 20px;
 }

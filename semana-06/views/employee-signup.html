@@ -9,22 +9,27 @@
 </head>
 <body>
     <div class="div">
+        <div>
+            <a href="../views/index.html">
+                <img class="img" src="../assets/Home.png" alt="">
+            </a>
+        </div>
         <h1>Register</h1>
         <form class="form">
             <label class="label" for="First Name">
-                <input class="input" placeholder="First Name" id="name">
+                <input class="input" placeholder="First Name" id="name" type="text">
             </label>
             <label class="label" for="Last Name">
-                <input class="input" placeholder="Last Name" id="l-name">
+                <input class="input" placeholder="Last Name" id="l-name" type="text">
             </label>
             <label class="label" for="Id Card">
-                <input class="input" placeholder="Id Card" id="card">
+                <input class="input" placeholder="Id Card" id="card" type="number">
             </label>
             <label class="label" for="Date of Birth">
-                <input class="input" placeholder="Date of Birth" id="birth">
+                <input class="input" placeholder="Date of Birth" id="birth" type="date">
             </label>
             <label class="label" for="Phone Number">
-                <input class="input" placeholder="Phone Number" id="phone">
+                <input class="input" placeholder="Phone Number" id="phone" type="number">
             </label>
             <label class="label" for="Address">
                 <input class="input" placeholder="Address" id="address">
@@ -32,24 +37,25 @@
         </form>
         <form class="form">
             <label class="label" for="Locality">
-                <input class="input" placeholder="Locality" id="locality">
+                <input class="input" placeholder="Locality" id="locality" type="text">
             </label>
             <label class="label" for="Zip Code">
-                <input class="input" placeholder="Zip Code" id="z-code">
+                <input class="input" placeholder="Zip Code" id="z-code" type="number">
             </label>
             <label class="label" for="Email">
-                <input class="input" placeholder="Email" id="email">
+                <input class="input" placeholder="Email" id="email" type="email">
             </label>
             <label class="label" for="Password">
-                <input class="input" placeholder="Password" id="password">
+                <input class="input" placeholder="Password" id="password" type="password">
             </label>
             <label class="label" for="Repeat Password">
-                <input class="input" placeholder="Repeat Password" id="r-password">
+                <input class="input" placeholder="Repeat Password" id="r-password" type="password">
             </label>
         </form>
         <div class="button-container">
             <button type="button" class="button" >Continue</button>
         </div>
     </div>
+    <script src="../javascript/sign-up.js"></script>
 </body>
 </html>
